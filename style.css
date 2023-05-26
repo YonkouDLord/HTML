@@ -7,7 +7,31 @@
     padding: 30px;
  }
 
+ nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    position: relative;
+    top: 10px;
+    right: 0;
+ }
+
+ nav a {
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: #b60c06;
+   text-decoration: underline;
+}
+
+ 
+
  .titulo-principal{
+   text-align: center;
     padding-left: 20px;
  }
 
@@ -47,3 +71,4 @@
  .imagembeneficios {
     width: 50%;
  }
+
